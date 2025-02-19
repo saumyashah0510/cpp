@@ -3,7 +3,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main()
+{
 
     stack<int> s;
 
@@ -16,7 +17,7 @@ int main(){
 
     cout << s.top() << endl;
 
-    if(s.empty())
+    if (s.empty())
     {
         cout << "Stack is empty" << endl;
     }
@@ -28,5 +29,4 @@ int main(){
     cout << "size of stack is: " << s.size() << endl;
 
     return 0;
-
 }
